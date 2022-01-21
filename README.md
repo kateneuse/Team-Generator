@@ -12,5 +12,9 @@ SCREENSHOT
 WALKTHROUGH VIDEO
 
 
-![Walkthrough](walkthrough.gif)
+
+
+
+
+https://user-images.githubusercontent.com/94023925/150457467-c0b91292-3869-4e13-9057-5f2db95e4f5c.mov
 
