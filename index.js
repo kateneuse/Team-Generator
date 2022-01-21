@@ -11,13 +11,12 @@ const Intern = require('./lib/Intern');
 
 
 
-
 teamArray = [];
 
 
 function initPage() {
     
-
+//array of questions for user input
 
     function createTeam () {
         inquirer.prompt([{
@@ -71,7 +70,7 @@ function addManager() {
       }
   
     ]).then(answers => {
-      const manager = new Manager(answers.ManagerName, answers.ManagerId, answers.ManagerEmail, answers.ManagerOfficeNumber);
+        const manager = new Manager(answers.ManagerName, answers.ManagerId, answers.ManagerEmail, answers.ManagerOfficeNumber);
       teamArray.push(manager);
       createTeam();
     });
@@ -142,7 +141,7 @@ function addEngineer() {
       }
 
     ]).then(answers => {
-      const intern = new Intern(answers.InternName, answers.InternId, answers.InternEmail, answers.InternSchool);
+      const Intern = new Intern(answers.InternName, answers.InternId, answers.InternEmail, answers.InternSchool);
       teamArray.push(intern);
       createTeam();
     });
@@ -151,8 +150,10 @@ function addEngineer() {
 
   function htmlBuilder () {
     console.log("Team created!")
-
-    fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+    fs.writeFileSync("./dist/team.html",
+    generateTeam(teamArray),
+    "utf-8"
+    );
 
 }
 
