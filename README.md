@@ -12,5 +12,5 @@ SCREENSHOT
 WALKTHROUGH VIDEO
 
 
-![Walkthrough](walkthrough.mov)
+![Walkthrough](walkthrough.gif)
 
