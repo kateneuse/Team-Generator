@@ -11,4 +11,4 @@ SCREENSHOT
 
 WALKTHROUGH
 
-![walkthrough](walkthrough.mov)
+![walkthrough](walkthrough.mp4)
