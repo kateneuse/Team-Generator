@@ -70,7 +70,7 @@ function addManager() {
       }
   
     ]).then(answers => {
-        const manager = new Manager(answers.ManagerName, answers.ManagerId, answers.ManagerEmail, answers.ManagerOfficeNumber);
+        const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
       teamArray.push(manager);
       createTeam();
     });
@@ -106,7 +106,7 @@ function addEngineer() {
       }
 
     ]).then(answers => {
-      const engineer = new Engineer(answers.EngineerName, answers.EngineerId, answers.EngineerEmail, answers.EngineerGithub);
+      const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
       teamArray.push(engineer);
       createTeam();
     });
@@ -141,7 +141,7 @@ function addEngineer() {
       }
 
     ]).then(answers => {
-      const Intern = new Intern(answers.InternName, answers.InternId, answers.InternEmail, answers.InternSchool);
+      const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
       teamArray.push(intern);
       createTeam();
     });
