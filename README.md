@@ -9,6 +9,6 @@ SCREENSHOT
 ![teamGenerator](teamScreenshot.jpg)
 
 
-WALKTHROUGH
+WALKTHROUGH VIDEO
 
-![walkthrough](walkthrough.mp4)
+
